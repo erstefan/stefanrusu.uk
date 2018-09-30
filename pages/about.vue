@@ -1,6 +1,6 @@
 <template>
   <div class="site__content">
-    <h1 class="page-title">Design & Development</h1>
+    <h1 class="page-title">About me</h1>
   </div>
 </template>
 
@@ -15,9 +15,9 @@
 </script>
 
 <style lang="scss">
-.site__content {
-  max-width: 1000px;
-  padding: 0 35px;
-  margin: 0 auto 0;
-}
+  .site__content {
+    max-width: 1000px;
+    padding: 0 35px;
+    margin: 0 auto 0;
+  }
 </style>

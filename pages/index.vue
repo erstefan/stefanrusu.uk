@@ -18,25 +18,38 @@
 </template>
 
 <script>
-export default {
-}
+  export default {}
 </script>
 
 <style lang="scss">
   .hero {
-    margin-top:70px;
+    margin-top: 70px;
 
     &__headings {
       h3 {
         font-size: 82px;
-        margin-top:0;
+        margin-top: 0;
         padding: 0;
         line-height: 87px;
+        &:last-of-type {
+          display: inline-block;
+          position: relative;
+          &:before {
+            content: '';
+            width: 100%;
+            height: 12px;
+            background-color: #cccccc;
+            position: absolute;
+            bottom: -7px;
+            left: 0;
+            z-index: -1;
+          }
+        }
       }
     }
 
     &__intro {
-      margin-top:70px;
+      margin-top: 70px;
       p {
         color: #2C2C2C;
         font-size: 30px;
@@ -53,10 +66,11 @@ export default {
     display: inline-block;
     margin-top: 70px;
   }
-.container {
-  margin: 0 auto 0;
-  max-width: 1000px;
-  padding: 0 35px;
-}
+
+  .container {
+    margin: 0 auto 0;
+    max-width: 1000px;
+    padding: 0 35px;
+  }
 
 </style>
