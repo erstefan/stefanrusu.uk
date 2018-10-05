@@ -34,6 +34,7 @@ html {
   margin: 0;
 }
   .page-title {
+    margin-top: 90px;
     font-size: 82px;
     color: #2C2C2C;
   }
