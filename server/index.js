@@ -36,6 +36,12 @@ async function start() {
 }
 start()
 
+app.get('/api/test/', json(), (req, res) => {
+  return res.status(200).json({
+    OK: true
+  });
+});
+
 app.post('/api/contact', json(), (req, res) => {
   const { name, email, message } = req.body
 
