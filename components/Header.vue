@@ -4,7 +4,7 @@
 
     <nav class="site__menu">
       <!-- <nuxt-link to="process">process</nuxt-link> -->
-      <nuxt-link to="services">services</nuxt-link>
+      <!-- <nuxt-link to="services">services</nuxt-link> -->
       <nuxt-link to="work">work</nuxt-link>
       <nuxt-link to="about">about</nuxt-link>
       <nuxt-link to="lets-talk">connect</nuxt-link>
@@ -40,66 +40,6 @@
       color: #2C2C2C;
       margin-right: 30px;
       z-index: 9;
-      // &:last-of-type {
-      //   margin-right: 0;
-      //   position: relative;
-      //   &:before {
-      //     content: '';
-      //     width: 120%;
-      //     height: 12px;
-      //     background-color: #98DEF5;
-      //     position: absolute;
-      //     bottom: 0px;
-      //     left: -10%;
-      //     z-index: -1;
-      //     transform: rotate(-2deg);
-      //   }
-      // }
-
-      // &:nth-of-type(2) {
-      //   position: relative;
-      //   &:before {
-      //     content: '';
-      //     width: 120%;
-      //     height: 12px;
-      //     background-color: #70EEDA;
-      //     position: absolute;
-      //     bottom: 0px;
-      //     left: -10%;
-      //     z-index: -1;
-      //     transform: rotate(-2deg);
-      //   }
-      // }
-
-      // &:nth-of-type(3) {
-      //   position: relative;
-      //   &:before {
-      //     content: '';
-      //     width: 120%;
-      //     height: 12px;
-      //     background-color: #F59898;
-      //     position: absolute;
-      //     bottom: 0px;
-      //     left: -10%;
-      //     z-index: -1;
-      //     transform: rotate(-2deg);
-      //   }
-      // }
-      // &:first-of-type {
-      //   position: relative;
-      //   &:before {
-      //     content: '';
-      //     width: 120%;
-      //     height: 12px;
-      //     background-color: #FFDD00;
-      //     position: absolute;
-      //     bottom: 0px;
-      //     left: -10%;
-      //     z-index: -1;
-      //     transform: rotate(-2deg);
-      //   }
-      // }
-
     }
 
     .nuxt-link-active {
