@@ -1,9 +1,6 @@
 const pkg = require('./package')
-const axios = require('@nuxtjs/axios');
 
 var apiEndpoint = 'https://stefanrusu.uk/';
-
-console.log('API_ENDPOINT', apiEndpoint);
 
 module.exports = {
   mode: 'spa',

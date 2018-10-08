@@ -3,8 +3,6 @@
     <Logo/>
 
     <nav class="site__menu">
-      <!-- <nuxt-link to="process">process</nuxt-link> -->
-      <!-- <nuxt-link to="services">services</nuxt-link> -->
       <nuxt-link to="work">work</nuxt-link>
       <nuxt-link to="about">about</nuxt-link>
       <nuxt-link to="lets-talk">connect</nuxt-link>

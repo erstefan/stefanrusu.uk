@@ -2,13 +2,14 @@ const express = require('express')
 const consola = require('consola')
 const { json } = require('body-parser')
 const { Nuxt, Builder } = require('nuxt')
+require('dotenv').config()
+
 const app = express()
 const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 const sendGrid = require('@sendgrid/mail')
 
-console.log('HOST', process.env.HOST)
-require('dotenv').config()
+
 app.set('port', port)
 
 // Import and Set Nuxt.js options
