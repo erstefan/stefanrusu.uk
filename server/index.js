@@ -1,8 +1,8 @@
+require('dotenv').config()
 const express = require('express')
 const consola = require('consola')
 const { json } = require('body-parser')
 const { Nuxt, Builder } = require('nuxt')
-require('dotenv').config()
 
 const app = express()
 const host = process.env.HOST || '127.0.0.1'
