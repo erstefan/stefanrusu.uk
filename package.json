@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.3",
+    "@nuxtjs/proxy": "^1.2.4",
     "@sendgrid/mail": "^6.3.1",
     "body-parser": "^1.18.3",
     "cross-env": "^5.2.0",
