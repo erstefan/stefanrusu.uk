@@ -23,7 +23,7 @@
       <h3>Sounds great, but
         I have some questions</h3>
 
-      <button class="btn-cta">contact me</button>
+      <nuxt-link to="lets-talk" class="btn-cta">contact me</nuxt-link>
     </div>
   </div>
 </template>
@@ -104,7 +104,7 @@
       content: '';
       width: 100%;
       height: 12px;
-      background-color: #FFDD00;
+      // background-color: #FFDD00;
       position: absolute;
       bottom: 10px;
       left: 0;

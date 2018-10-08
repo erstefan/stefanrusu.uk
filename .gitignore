@@ -79,3 +79,7 @@ dist
 
 # IDE
 .idea
+.code
+
+# Environment variables
+.env

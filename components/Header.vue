@@ -3,9 +3,11 @@
     <Logo/>
 
     <nav class="site__menu">
-      <nuxt-link to="process">the process</nuxt-link>
-      <nuxt-link to="about">about me</nuxt-link>
-      <nuxt-link to="lets-talk">let's talk</nuxt-link>
+      <!-- <nuxt-link to="process">process</nuxt-link> -->
+      <nuxt-link to="services">services</nuxt-link>
+      <nuxt-link to="work">work</nuxt-link>
+      <nuxt-link to="about">about</nuxt-link>
+      <nuxt-link to="lets-talk">connect</nuxt-link>
     </nav>
   </header>
 </template>
@@ -22,8 +24,9 @@
 
 <style lang="scss">
   header {
-    max-width: 1000px;
-    margin: 35px auto 35px;
+    max-width: 1800px;
+    position: relative;
+    margin: 0 auto 100px;
     padding: 0 35px;
     display: flex;
     justify-content: space-between;
@@ -37,50 +40,65 @@
       color: #2C2C2C;
       margin-right: 30px;
       z-index: 9;
-      &:last-of-type {
-        margin-right: 0;
-        position: relative;
-        &:before {
-          content: '';
-          width: 120%;
-          height: 12px;
-          background-color: #eee;
-          position: absolute;
-          bottom: 0px;
-          left: -10%;
-          z-index: -1;
-          transform: rotate(-0.5deg);
-        }
-      }
+      // &:last-of-type {
+      //   margin-right: 0;
+      //   position: relative;
+      //   &:before {
+      //     content: '';
+      //     width: 120%;
+      //     height: 12px;
+      //     background-color: #98DEF5;
+      //     position: absolute;
+      //     bottom: 0px;
+      //     left: -10%;
+      //     z-index: -1;
+      //     transform: rotate(-2deg);
+      //   }
+      // }
 
-      &:nth-of-type(2) {
-        position: relative;
-        &:before {
-          content: '';
-          width: 120%;
-          height: 12px;
-          background-color: #70EEDA;
-          position: absolute;
-          bottom: 0px;
-          left: -10%;
-          z-index: -1;
-          transform: rotate(-0.5deg);
-        }
-      }
-      &:first-of-type {
-        position: relative;
-        &:before {
-          content: '';
-          width: 120%;
-          height: 12px;
-          background-color: #FFDD00;
-          position: absolute;
-          bottom: 0px;
-          left: -10%;
-          z-index: -1;
-          transform: rotate(-0.5deg);
-        }
-      }
+      // &:nth-of-type(2) {
+      //   position: relative;
+      //   &:before {
+      //     content: '';
+      //     width: 120%;
+      //     height: 12px;
+      //     background-color: #70EEDA;
+      //     position: absolute;
+      //     bottom: 0px;
+      //     left: -10%;
+      //     z-index: -1;
+      //     transform: rotate(-2deg);
+      //   }
+      // }
+
+      // &:nth-of-type(3) {
+      //   position: relative;
+      //   &:before {
+      //     content: '';
+      //     width: 120%;
+      //     height: 12px;
+      //     background-color: #F59898;
+      //     position: absolute;
+      //     bottom: 0px;
+      //     left: -10%;
+      //     z-index: -1;
+      //     transform: rotate(-2deg);
+      //   }
+      // }
+      // &:first-of-type {
+      //   position: relative;
+      //   &:before {
+      //     content: '';
+      //     width: 120%;
+      //     height: 12px;
+      //     background-color: #FFDD00;
+      //     position: absolute;
+      //     bottom: 0px;
+      //     left: -10%;
+      //     z-index: -1;
+      //     transform: rotate(-2deg);
+      //   }
+      // }
 
     }
 
@@ -89,8 +107,8 @@
       &:before {
         content: '';
         width: 120%;
-        height: 12px;
-        background-color: #FFDD00;
+        height: 8px;
+        background-color: #fff;
         position: absolute;
         bottom: 0px;
         left: -10%;
