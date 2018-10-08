@@ -48,8 +48,7 @@
 
 <script>
 import Header from '~/components/Header.vue'
-import { error } from 'util'
-import axios from 'axios'
+import axios from '@nuxtjs/axios'
 import errorPatternImage from '~/assets/images/what-the-hex.png'
 
 export default {
