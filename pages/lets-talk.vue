@@ -82,7 +82,7 @@ export default {
 
       if (this.errors.length === 0) {
         await this.$axios
-          .$post('http://stefanrusu.uk/api/contact', { ...this.form })
+          .$post('https://stefanrusu.uk/api/contact', { ...this.form })
           .then(res => {
             if (res.OK) {
               this.clearFormData()
